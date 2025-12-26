@@ -99,12 +99,12 @@ CampusOR aims to:
 
 ## Technology Stack
 
-- **Frontend:** React, Next.js, PWA  
+- **Frontend:**  Next.js 
 - **Backend:** Node.js, Express  
-- **Database:** MongoDB / PostgreSQL  
+- **Database:** MongoDB   
 - **Real-Time:** WebSockets, Socket.IO  
 - **ML:** Python (FastAPI)  
-- **Notifications:** WhatsApp, Telegram, Email  
+- **Notifications:** WhatsApp, Telegram, Email (which ever is easier to integrate) 
 - **Deployment:** Docker, Vercel, AWS  
 - **Security:** JWT, RBAC  
 
@@ -114,7 +114,7 @@ CampusOR aims to:
 
 ```txt
 campusor/
-├── frontend/        # Next.js PWA client
+├── frontend/        # Next.js 
 ├── backend/         # Express + MongoDB API
 ├── ml-service/      # FastAPI ML service
 ├── shared/          # shared types & schemas
